@@ -11,7 +11,7 @@ def multiply(a, b):
         return np.multiply(a, b)
 
 def divide(a, b):
-        return a/-b
+        return a/b
 
 if __name__ == "__main__":
     print(f"Addition: {add(1, 2)}")
