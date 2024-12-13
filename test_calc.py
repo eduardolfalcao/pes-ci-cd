@@ -1,5 +1,5 @@
 import unittest
-from calc import add, subtract, multiply
+from calc import add, subtract, multiply, divide
 
 class TestApp(unittest.TestCase):
     def test_add(self):
@@ -13,6 +13,10 @@ class TestApp(unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(multiply(3, 5), 15)
         self.assertEqual(multiply(0, 5), 0)
+
+    def test_divide(self):
+        self.assertEqual(divide(15, 3), 5.0)
+        self.assertEqual(multiply(0, 5), 0.0)
 
 if __name__ == "__main__":
     unittest.main()
