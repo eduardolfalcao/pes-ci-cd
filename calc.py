@@ -14,7 +14,7 @@ def divide(a, b):
         return a/b
 
 if __name__ == "__main__":
-    print(f"Addition: {add(1, 2)}")
-    print(f"Subtraction: {subtract(4, 2)}")
-    print(f"Multiplication: {multiply(3, 5)}")
-    print(f"Division: {divide(15, 3)}")
+    print(f"Test Addition: {add(1, 2)}")
+    print(f"Test Subtraction: {subtract(4, 2)}")
+    print(f"Test Multiplication: {multiply(3, 5)}")
+    print(f"Test Division: {divide(15, 3)}")
